@@ -1,0 +1,320 @@
+2021-08-20 16:50:22,045 - INFO - allennlp.common.params - random_seed = 13370
+2021-08-20 16:50:22,046 - INFO - allennlp.common.params - numpy_seed = 1337
+2021-08-20 16:50:22,046 - INFO - allennlp.common.params - pytorch_seed = 133
+2021-08-20 16:50:22,048 - INFO - allennlp.common.checks - Pytorch version: 1.8.1+cpu
+2021-08-20 16:50:22,048 - INFO - allennlp.common.params - type = default
+2021-08-20 16:50:22,048 - INFO - allennlp.common.params - dataset_reader.type = bert_reader
+2021-08-20 16:50:22,049 - INFO - allennlp.common.params - dataset_reader.max_instances = None
+2021-08-20 16:50:22,049 - INFO - allennlp.common.params - dataset_reader.manual_distributed_sharding = False
+2021-08-20 16:50:22,049 - INFO - allennlp.common.params - dataset_reader.manual_multiprocess_sharding = False
+2021-08-20 16:50:22,050 - INFO - allennlp.common.params - dataset_reader.tokenizer.type = pretrained_transformer
+2021-08-20 16:50:22,050 - INFO - allennlp.common.params - dataset_reader.tokenizer.model_name = chinese_question_bert_base/
+2021-08-20 16:50:22,050 - INFO - allennlp.common.params - dataset_reader.tokenizer.add_special_tokens = True
+2021-08-20 16:50:22,050 - INFO - allennlp.common.params - dataset_reader.tokenizer.max_length = None
+2021-08-20 16:50:22,050 - INFO - allennlp.common.params - dataset_reader.tokenizer.tokenizer_kwargs = None
+2021-08-20 16:50:22,137 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.type = pretrained_transformer
+2021-08-20 16:50:22,137 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.token_min_padding_length = 0
+2021-08-20 16:50:22,137 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.model_name = chinese_question_bert_base/
+2021-08-20 16:50:22,137 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.namespace = tags
+2021-08-20 16:50:22,137 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.max_length = None
+2021-08-20 16:50:22,137 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.tokenizer_kwargs = None
+2021-08-20 16:50:22,138 - INFO - allennlp.common.params - dataset_reader.max_tokens = 512
+2021-08-20 16:50:22,138 - INFO - allennlp.common.params - train_data_path = data/chinese_question_sim/train_split_data/train_data.csv
+2021-08-20 16:50:22,138 - INFO - allennlp.common.params - vocabulary = <allennlp.common.lazy.Lazy object at 0x00000204E48F9A00>
+2021-08-20 16:50:22,139 - INFO - allennlp.common.params - datasets_for_vocab_creation = None
+2021-08-20 16:50:22,139 - INFO - allennlp.common.params - validation_dataset_reader = None
+2021-08-20 16:50:22,139 - INFO - allennlp.common.params - validation_data_path = data/chinese_question_sim/train_split_data/dev_data.csv
+2021-08-20 16:50:22,139 - INFO - allennlp.common.params - validation_data_loader = None
+2021-08-20 16:50:22,139 - INFO - allennlp.common.params - test_data_path = None
+2021-08-20 16:50:22,139 - INFO - allennlp.common.params - evaluate_on_test = False
+2021-08-20 16:50:22,140 - INFO - allennlp.common.params - batch_weight_key = 
+2021-08-20 16:50:22,140 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2021-08-20 16:50:22,140 - INFO - allennlp.common.params - data_loader.batch_size = None
+2021-08-20 16:50:22,140 - INFO - allennlp.common.params - data_loader.drop_last = False
+2021-08-20 16:50:22,140 - INFO - allennlp.common.params - data_loader.shuffle = False
+2021-08-20 16:50:22,141 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2021-08-20 16:50:22,141 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 16
+2021-08-20 16:50:22,141 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = ['text']
+2021-08-20 16:50:22,141 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2021-08-20 16:50:22,141 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2021-08-20 16:50:22,141 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2021-08-20 16:50:22,142 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2021-08-20 16:50:22,142 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = 1600
+2021-08-20 16:50:22,142 - INFO - allennlp.common.params - data_loader.start_method = fork
+2021-08-20 16:50:22,142 - INFO - allennlp.common.params - data_loader.cuda_device = 0
+2021-08-20 16:50:22,142 - INFO - allennlp.common.params - data_loader.quiet = False
+2021-08-20 16:50:22,142 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2021-08-20 16:50:22,143 - INFO - allennlp.common.params - data_loader.batch_size = None
+2021-08-20 16:50:22,143 - INFO - allennlp.common.params - data_loader.drop_last = False
+2021-08-20 16:50:22,143 - INFO - allennlp.common.params - data_loader.shuffle = False
+2021-08-20 16:50:22,143 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2021-08-20 16:50:22,143 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 16
+2021-08-20 16:50:22,143 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = ['text']
+2021-08-20 16:50:22,143 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.1
+2021-08-20 16:50:22,144 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2021-08-20 16:50:22,144 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2021-08-20 16:50:22,144 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2021-08-20 16:50:22,144 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = 1600
+2021-08-20 16:50:22,144 - INFO - allennlp.common.params - data_loader.start_method = fork
+2021-08-20 16:50:22,144 - INFO - allennlp.common.params - data_loader.cuda_device = 0
+2021-08-20 16:50:22,144 - INFO - allennlp.common.params - data_loader.quiet = False
+2021-08-20 16:50:22,144 - INFO - allennlp.common.params - type = from_instances
+2021-08-20 16:50:22,145 - INFO - allennlp.common.params - min_count = None
+2021-08-20 16:50:22,145 - INFO - allennlp.common.params - max_vocab_size = None
+2021-08-20 16:50:22,145 - INFO - allennlp.common.params - non_padded_namespaces = ('*tags', '*labels')
+2021-08-20 16:50:22,145 - INFO - allennlp.common.params - pretrained_files = None
+2021-08-20 16:50:22,145 - INFO - allennlp.common.params - only_include_pretrained_words = False
+2021-08-20 16:50:22,145 - INFO - allennlp.common.params - tokens_to_add = None
+2021-08-20 16:50:22,145 - INFO - allennlp.common.params - min_pretrained_embeddings = None
+2021-08-20 16:50:22,145 - INFO - allennlp.common.params - padding_token = @@PADDING@@
+2021-08-20 16:50:22,145 - INFO - allennlp.common.params - oov_token = @@UNKNOWN@@
+2021-08-20 16:50:22,146 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2021-08-20 16:50:22,147 - INFO - tqdm - building vocab: 0it [00:00, ?it/s]
+2021-08-20 16:50:22,148 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2021-08-20 16:50:24,278 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2021-08-20 16:50:24,805 - INFO - allennlp.common.params - model.type = bert_sent
+2021-08-20 16:50:24,806 - INFO - allennlp.common.params - model.pretrained_model = chinese_question_bert_base/
+2021-08-20 16:50:24,806 - INFO - allennlp.common.params - model.requires_grad = True
+2021-08-20 16:50:24,806 - INFO - allennlp.common.params - model.dropout = 0.2
+2021-08-20 16:50:26,004 - INFO - allennlp.common.params - trainer.type = gradient_descent
+2021-08-20 16:50:26,004 - INFO - allennlp.common.params - trainer.patience = 2
+2021-08-20 16:50:26,004 - INFO - allennlp.common.params - trainer.validation_metric = ['+accuracy', '-loss']
+2021-08-20 16:50:26,005 - INFO - allennlp.common.params - trainer.num_epochs = 5
+2021-08-20 16:50:26,005 - INFO - allennlp.common.params - trainer.cuda_device = None
+2021-08-20 16:50:26,005 - INFO - allennlp.common.params - trainer.grad_norm = None
+2021-08-20 16:50:26,005 - INFO - allennlp.common.params - trainer.grad_clipping = None
+2021-08-20 16:50:26,005 - INFO - allennlp.common.params - trainer.distributed = False
+2021-08-20 16:50:26,005 - INFO - allennlp.common.params - trainer.world_size = 1
+2021-08-20 16:50:26,005 - INFO - allennlp.common.params - trainer.num_gradient_accumulation_steps = 1
+2021-08-20 16:50:26,006 - INFO - allennlp.common.params - trainer.use_amp = False
+2021-08-20 16:50:26,006 - INFO - allennlp.common.params - trainer.no_grad = None
+2021-08-20 16:50:26,006 - INFO - allennlp.common.params - trainer.learning_rate_scheduler = None
+2021-08-20 16:50:26,006 - INFO - allennlp.common.params - trainer.momentum_scheduler = None
+2021-08-20 16:50:26,006 - INFO - allennlp.common.params - trainer.moving_average = None
+2021-08-20 16:50:26,006 - INFO - allennlp.common.params - trainer.checkpointer = <allennlp.common.lazy.Lazy object at 0x00000204E48D97F0>
+2021-08-20 16:50:26,006 - INFO - allennlp.common.params - trainer.callbacks = ['tensorboard']
+2021-08-20 16:50:26,007 - INFO - allennlp.common.params - trainer.enable_default_callbacks = True
+2021-08-20 16:50:26,007 - INFO - allennlp.common.params - trainer.run_sanity_checks = True
+2021-08-20 16:50:26,008 - INFO - allennlp.common.params - trainer.optimizer.type = huggingface_adamw
+2021-08-20 16:50:26,008 - INFO - allennlp.common.params - trainer.optimizer.parameter_groups = None
+2021-08-20 16:50:26,008 - INFO - allennlp.common.params - trainer.optimizer.lr = 0.0001
+2021-08-20 16:50:26,008 - INFO - allennlp.common.params - trainer.optimizer.betas = (0.9, 0.999)
+2021-08-20 16:50:26,008 - INFO - allennlp.common.params - trainer.optimizer.eps = 1e-08
+2021-08-20 16:50:26,008 - INFO - allennlp.common.params - trainer.optimizer.weight_decay = 0.0
+2021-08-20 16:50:26,009 - INFO - allennlp.common.params - trainer.optimizer.correct_bias = True
+2021-08-20 16:50:26,009 - INFO - allennlp.training.optimizers - Number of trainable parameters: 98128130
+2021-08-20 16:50:26,009 - INFO - allennlp.common.util - The following parameters are Frozen (without gradient):
+2021-08-20 16:50:26,010 - INFO - allennlp.common.util - The following parameters are Tunable (with gradient):
+2021-08-20 16:50:26,010 - INFO - allennlp.common.util - model.embeddings.word_embeddings.weight
+2021-08-20 16:50:26,011 - INFO - allennlp.common.util - model.embeddings.position_embeddings.weight
+2021-08-20 16:50:26,012 - INFO - allennlp.common.util - model.embeddings.token_type_embeddings.weight
+2021-08-20 16:50:26,012 - INFO - allennlp.common.util - model.embeddings.LayerNorm.weight
+2021-08-20 16:50:26,012 - INFO - allennlp.common.util - model.embeddings.LayerNorm.bias
+2021-08-20 16:50:26,013 - INFO - allennlp.common.util - model.encoder.layer.0.attention.self.query.weight
+2021-08-20 16:50:26,013 - INFO - allennlp.common.util - model.encoder.layer.0.attention.self.query.bias
+2021-08-20 16:50:26,013 - INFO - allennlp.common.util - model.encoder.layer.0.attention.self.key.weight
+2021-08-20 16:50:26,013 - INFO - allennlp.common.util - model.encoder.layer.0.attention.self.key.bias
+2021-08-20 16:50:26,013 - INFO - allennlp.common.util - model.encoder.layer.0.attention.self.value.weight
+2021-08-20 16:50:26,013 - INFO - allennlp.common.util - model.encoder.layer.0.attention.self.value.bias
+2021-08-20 16:50:26,014 - INFO - allennlp.common.util - model.encoder.layer.0.attention.output.dense.weight
+2021-08-20 16:50:26,014 - INFO - allennlp.common.util - model.encoder.layer.0.attention.output.dense.bias
+2021-08-20 16:50:26,014 - INFO - allennlp.common.util - model.encoder.layer.0.attention.output.LayerNorm.weight
+2021-08-20 16:50:26,014 - INFO - allennlp.common.util - model.encoder.layer.0.attention.output.LayerNorm.bias
+2021-08-20 16:50:26,014 - INFO - allennlp.common.util - model.encoder.layer.0.intermediate.dense.weight
+2021-08-20 16:50:26,014 - INFO - allennlp.common.util - model.encoder.layer.0.intermediate.dense.bias
+2021-08-20 16:50:26,014 - INFO - allennlp.common.util - model.encoder.layer.0.output.dense.weight
+2021-08-20 16:50:26,014 - INFO - allennlp.common.util - model.encoder.layer.0.output.dense.bias
+2021-08-20 16:50:26,014 - INFO - allennlp.common.util - model.encoder.layer.0.output.LayerNorm.weight
+2021-08-20 16:50:26,015 - INFO - allennlp.common.util - model.encoder.layer.0.output.LayerNorm.bias
+2021-08-20 16:50:26,015 - INFO - allennlp.common.util - model.encoder.layer.1.attention.self.query.weight
+2021-08-20 16:50:26,015 - INFO - allennlp.common.util - model.encoder.layer.1.attention.self.query.bias
+2021-08-20 16:50:26,015 - INFO - allennlp.common.util - model.encoder.layer.1.attention.self.key.weight
+2021-08-20 16:50:26,015 - INFO - allennlp.common.util - model.encoder.layer.1.attention.self.key.bias
+2021-08-20 16:50:26,015 - INFO - allennlp.common.util - model.encoder.layer.1.attention.self.value.weight
+2021-08-20 16:50:26,015 - INFO - allennlp.common.util - model.encoder.layer.1.attention.self.value.bias
+2021-08-20 16:50:26,015 - INFO - allennlp.common.util - model.encoder.layer.1.attention.output.dense.weight
+2021-08-20 16:50:26,015 - INFO - allennlp.common.util - model.encoder.layer.1.attention.output.dense.bias
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.1.attention.output.LayerNorm.weight
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.1.attention.output.LayerNorm.bias
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.1.intermediate.dense.weight
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.1.intermediate.dense.bias
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.1.output.dense.weight
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.1.output.dense.bias
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.1.output.LayerNorm.weight
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.1.output.LayerNorm.bias
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.2.attention.self.query.weight
+2021-08-20 16:50:26,016 - INFO - allennlp.common.util - model.encoder.layer.2.attention.self.query.bias
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.attention.self.key.weight
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.attention.self.key.bias
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.attention.self.value.weight
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.attention.self.value.bias
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.attention.output.dense.weight
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.attention.output.dense.bias
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.attention.output.LayerNorm.weight
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.attention.output.LayerNorm.bias
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.intermediate.dense.weight
+2021-08-20 16:50:26,017 - INFO - allennlp.common.util - model.encoder.layer.2.intermediate.dense.bias
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.2.output.dense.weight
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.2.output.dense.bias
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.2.output.LayerNorm.weight
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.2.output.LayerNorm.bias
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.3.attention.self.query.weight
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.3.attention.self.query.bias
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.3.attention.self.key.weight
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.3.attention.self.key.bias
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.3.attention.self.value.weight
+2021-08-20 16:50:26,018 - INFO - allennlp.common.util - model.encoder.layer.3.attention.self.value.bias
+2021-08-20 16:50:26,019 - INFO - allennlp.common.util - model.encoder.layer.3.attention.output.dense.weight
+2021-08-20 16:50:26,019 - INFO - allennlp.common.util - model.encoder.layer.3.attention.output.dense.bias
+2021-08-20 16:50:26,019 - INFO - allennlp.common.util - model.encoder.layer.3.attention.output.LayerNorm.weight
+2021-08-20 16:50:26,019 - INFO - allennlp.common.util - model.encoder.layer.3.attention.output.LayerNorm.bias
+2021-08-20 16:50:26,019 - INFO - allennlp.common.util - model.encoder.layer.3.intermediate.dense.weight
+2021-08-20 16:50:26,019 - INFO - allennlp.common.util - model.encoder.layer.3.intermediate.dense.bias
+2021-08-20 16:50:26,019 - INFO - allennlp.common.util - model.encoder.layer.3.output.dense.weight
+2021-08-20 16:50:26,019 - INFO - allennlp.common.util - model.encoder.layer.3.output.dense.bias
+2021-08-20 16:50:26,019 - INFO - allennlp.common.util - model.encoder.layer.3.output.LayerNorm.weight
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.3.output.LayerNorm.bias
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.4.attention.self.query.weight
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.4.attention.self.query.bias
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.4.attention.self.key.weight
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.4.attention.self.key.bias
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.4.attention.self.value.weight
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.4.attention.self.value.bias
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.4.attention.output.dense.weight
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.4.attention.output.dense.bias
+2021-08-20 16:50:26,020 - INFO - allennlp.common.util - model.encoder.layer.4.attention.output.LayerNorm.weight
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.4.attention.output.LayerNorm.bias
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.4.intermediate.dense.weight
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.4.intermediate.dense.bias
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.4.output.dense.weight
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.4.output.dense.bias
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.4.output.LayerNorm.weight
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.4.output.LayerNorm.bias
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.5.attention.self.query.weight
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.5.attention.self.query.bias
+2021-08-20 16:50:26,021 - INFO - allennlp.common.util - model.encoder.layer.5.attention.self.key.weight
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.attention.self.key.bias
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.attention.self.value.weight
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.attention.self.value.bias
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.attention.output.dense.weight
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.attention.output.dense.bias
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.attention.output.LayerNorm.weight
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.attention.output.LayerNorm.bias
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.intermediate.dense.weight
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.intermediate.dense.bias
+2021-08-20 16:50:26,022 - INFO - allennlp.common.util - model.encoder.layer.5.output.dense.weight
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.5.output.dense.bias
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.5.output.LayerNorm.weight
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.5.output.LayerNorm.bias
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.6.attention.self.query.weight
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.6.attention.self.query.bias
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.6.attention.self.key.weight
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.6.attention.self.key.bias
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.6.attention.self.value.weight
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.6.attention.self.value.bias
+2021-08-20 16:50:26,023 - INFO - allennlp.common.util - model.encoder.layer.6.attention.output.dense.weight
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.6.attention.output.dense.bias
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.6.attention.output.LayerNorm.weight
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.6.attention.output.LayerNorm.bias
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.6.intermediate.dense.weight
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.6.intermediate.dense.bias
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.6.output.dense.weight
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.6.output.dense.bias
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.6.output.LayerNorm.weight
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.6.output.LayerNorm.bias
+2021-08-20 16:50:26,024 - INFO - allennlp.common.util - model.encoder.layer.7.attention.self.query.weight
+2021-08-20 16:50:26,025 - INFO - allennlp.common.util - model.encoder.layer.7.attention.self.query.bias
+2021-08-20 16:50:26,025 - INFO - allennlp.common.util - model.encoder.layer.7.attention.self.key.weight
+2021-08-20 16:50:26,025 - INFO - allennlp.common.util - model.encoder.layer.7.attention.self.key.bias
+2021-08-20 16:50:26,025 - INFO - allennlp.common.util - model.encoder.layer.7.attention.self.value.weight
+2021-08-20 16:50:26,026 - INFO - allennlp.common.util - model.encoder.layer.7.attention.self.value.bias
+2021-08-20 16:50:26,026 - INFO - allennlp.common.util - model.encoder.layer.7.attention.output.dense.weight
+2021-08-20 16:50:26,026 - INFO - allennlp.common.util - model.encoder.layer.7.attention.output.dense.bias
+2021-08-20 16:50:26,026 - INFO - allennlp.common.util - model.encoder.layer.7.attention.output.LayerNorm.weight
+2021-08-20 16:50:26,026 - INFO - allennlp.common.util - model.encoder.layer.7.attention.output.LayerNorm.bias
+2021-08-20 16:50:26,026 - INFO - allennlp.common.util - model.encoder.layer.7.intermediate.dense.weight
+2021-08-20 16:50:26,026 - INFO - allennlp.common.util - model.encoder.layer.7.intermediate.dense.bias
+2021-08-20 16:50:26,026 - INFO - allennlp.common.util - model.encoder.layer.7.output.dense.weight
+2021-08-20 16:50:26,026 - INFO - allennlp.common.util - model.encoder.layer.7.output.dense.bias
+2021-08-20 16:50:26,027 - INFO - allennlp.common.util - model.encoder.layer.7.output.LayerNorm.weight
+2021-08-20 16:50:26,027 - INFO - allennlp.common.util - model.encoder.layer.7.output.LayerNorm.bias
+2021-08-20 16:50:26,027 - INFO - allennlp.common.util - model.pooler.dense.weight
+2021-08-20 16:50:26,027 - INFO - allennlp.common.util - model.pooler.dense.bias
+2021-08-20 16:50:26,027 - INFO - allennlp.common.util - sent_attention.weight
+2021-08-20 16:50:26,027 - INFO - allennlp.common.util - sent_attention.bias
+2021-08-20 16:50:26,027 - INFO - allennlp.common.util - sent_attention.query
+2021-08-20 16:50:26,027 - INFO - allennlp.common.util - sent_encoder.sent_lstm.weight_ih_l0
+2021-08-20 16:50:26,028 - INFO - allennlp.common.util - sent_encoder.sent_lstm.weight_hh_l0
+2021-08-20 16:50:26,028 - INFO - allennlp.common.util - sent_encoder.sent_lstm.bias_ih_l0
+2021-08-20 16:50:26,028 - INFO - allennlp.common.util - sent_encoder.sent_lstm.bias_hh_l0
+2021-08-20 16:50:26,028 - INFO - allennlp.common.util - sent_encoder.sent_lstm.weight_ih_l0_reverse
+2021-08-20 16:50:26,028 - INFO - allennlp.common.util - sent_encoder.sent_lstm.weight_hh_l0_reverse
+2021-08-20 16:50:26,029 - INFO - allennlp.common.util - sent_encoder.sent_lstm.bias_ih_l0_reverse
+2021-08-20 16:50:26,029 - INFO - allennlp.common.util - sent_encoder.sent_lstm.bias_hh_l0_reverse
+2021-08-20 16:50:26,029 - INFO - allennlp.common.util - sent_encoder.sent_lstm.weight_ih_l1
+2021-08-20 16:50:26,029 - INFO - allennlp.common.util - sent_encoder.sent_lstm.weight_hh_l1
+2021-08-20 16:50:26,029 - INFO - allennlp.common.util - sent_encoder.sent_lstm.bias_ih_l1
+2021-08-20 16:50:26,029 - INFO - allennlp.common.util - sent_encoder.sent_lstm.bias_hh_l1
+2021-08-20 16:50:26,029 - INFO - allennlp.common.util - sent_encoder.sent_lstm.weight_ih_l1_reverse
+2021-08-20 16:50:26,029 - INFO - allennlp.common.util - sent_encoder.sent_lstm.weight_hh_l1_reverse
+2021-08-20 16:50:26,030 - INFO - allennlp.common.util - sent_encoder.sent_lstm.bias_ih_l1_reverse
+2021-08-20 16:50:26,030 - INFO - allennlp.common.util - sent_encoder.sent_lstm.bias_hh_l1_reverse
+2021-08-20 16:50:26,030 - INFO - allennlp.common.util - classifier.weight
+2021-08-20 16:50:26,030 - INFO - allennlp.common.util - classifier.bias
+2021-08-20 16:50:26,030 - INFO - allennlp.common.params - type = default
+2021-08-20 16:50:26,030 - INFO - allennlp.common.params - keep_serialized_model_every_num_seconds = None
+2021-08-20 16:50:26,030 - INFO - allennlp.common.params - num_serialized_models_to_keep = 2
+2021-08-20 16:50:26,031 - INFO - allennlp.common.params - model_save_interval = None
+2021-08-20 16:50:26,031 - INFO - allennlp.common.params - type = tensorboard
+2021-08-20 16:50:26,031 - INFO - allennlp.common.params - summary_interval = 100
+2021-08-20 16:50:26,031 - INFO - allennlp.common.params - distribution_interval = None
+2021-08-20 16:50:26,031 - INFO - allennlp.common.params - batch_size_interval = None
+2021-08-20 16:50:26,031 - INFO - allennlp.common.params - should_log_parameter_statistics = True
+2021-08-20 16:50:26,031 - INFO - allennlp.common.params - should_log_learning_rate = False
+2021-08-20 16:50:26,036 - INFO - allennlp.training.trainer - Beginning training.
+2021-08-20 16:50:26,036 - INFO - allennlp.training.trainer - Epoch 0/4
+2021-08-20 16:50:26,036 - INFO - allennlp.training.trainer - Worker 0 memory usage: 0B
+2021-08-20 16:50:26,036 - INFO - allennlp.training.trainer - Training
+2021-08-20 16:50:26,037 - INFO - tqdm - 0it [00:00, ?it/s]
+2021-08-20 16:50:26,037 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2021-08-20 16:50:27,413 - CRITICAL - root - Uncaught exception
+Traceback (most recent call last):
+  File "d:\programdata\miniconda3\envs\allennlp\lib\runpy.py", line 192, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "d:\programdata\miniconda3\envs\allennlp\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "D:\ProgramData\Miniconda3\envs\allennlp\Scripts\allennlp.exe\__main__.py", line 7, in <module>
+    sys.exit(run())
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\__main__.py", line 34, in run
+    main(prog="allennlp")
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\commands\__init__.py", line 119, in main
+    args.func(args)
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\commands\train.py", line 110, in train_model_from_args
+    train_model_from_file(
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\commands\train.py", line 170, in train_model_from_file
+    return train_model(
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\commands\train.py", line 236, in train_model
+    model = _train_worker(
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\commands\train.py", line 466, in _train_worker
+    metrics = train_loop.run()
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\commands\train.py", line 528, in run
+    return self.trainer.train()
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\training\trainer.py", line 740, in train
+    metrics, epoch = self._try_train()
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\training\trainer.py", line 772, in _try_train
+    train_metrics = self._train_epoch(epoch)
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\training\trainer.py", line 506, in _train_epoch
+    batch_outputs = self.batch_outputs(batch, for_training=True)
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\allennlp\training\trainer.py", line 391, in batch_outputs
+    output_dict = self._pytorch_model(**batch)
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "F:\学习\code\12.中文问题相似度挑战赛\allennlp_model\my_modules\models\bert_sent.py", line 127, in forward
+    logits = self.classifier(encoded_text)
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\torch\nn\modules\linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "d:\programdata\miniconda3\envs\allennlp\lib\site-packages\torch\nn\functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (16x768 and 1536x2)
